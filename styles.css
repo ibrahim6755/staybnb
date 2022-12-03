@@ -38,6 +38,9 @@ nav{
     text-decoration: none;
     font-size: 14px;
 }
+.register-btn:hover{
+    color: #000;
+}
 .container{
     padding: 0 7%;
 
@@ -51,7 +54,7 @@ nav{
 }
 .search-bar{
     background: #fff;
-    width: 70%;
+    width: 80%;
     margin: 30px auto;
     padding: 6px 10px 6px 30px;
     border-radius: 50px;
@@ -59,7 +62,6 @@ nav{
 .search-bar form{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
 }
 .search-bar form input{
     display: block;
@@ -117,6 +119,10 @@ nav{
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
+    font-size: 10px;
+}
+.exclusives div span h3{
+    font-size: 18px;
 }
 /*----------------------------------trending places---------------------------------*/
 .trending{
@@ -132,6 +138,7 @@ nav{
 .trending h3{
     font-weight: 600;
     margin-top: 10px;
+    font-size: 20px;
 }
 /*------------------------------------------call to action-----------------------*/
 .cta{
@@ -144,14 +151,13 @@ nav{
     color: #fff;
 }
 .cta  h3{
-    font-size: 4vw;
+    font-size:34px;
     line-height: 5.3vw;
     font-weight: 500;
 }
 .cta p{
-    font-size: 18px;
+    font-size: 12px;
     margin: 10px 0;
-
 }
 .cta-btn{
     background: #ff5361;
@@ -161,6 +167,9 @@ nav{
     border-radius: 8px;
     margin-top: 20px;
     display: inline-block;
+}
+.cta-btn:hover{
+    color: #fff;
 }
 /*-----------------------------Travellers Stories--------------------------------*/
 .stories{
@@ -184,7 +193,7 @@ nav{
     transform: translate(-50%, -50%);
     width: 80%;
     color: #fff;
-    font-size: 26px;
+    font-size: 20px;
 
 }
 .start-btn{
@@ -212,6 +221,9 @@ nav{
     margin-bottom: 30px;
     font-weight: 500;
 }
+.about-msg p{
+    font-size: 14px;
+}
 /*-------------------------------------footer-----------------------------------*/
 .footer{
     margin: 80px 0 10px;
@@ -234,4 +246,33 @@ nav{
 }
 .footer p{
     padding-bottom: 15px;
+}
+/*-----------------------------------media-queries----------------------------------------*/
+@media (max-width: 699.98px) {
+
+    .cta h3{
+        font-size:24px;
+        line-height: 5.3vw;
+        font-weight: 500;
+    }
+    .cta-btn{
+        background: #ff5361;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 28px;
+        border-radius: 8px;
+        margin-top: 18px;
+        display: inline-block;
+    }
+    
+}
+@media (max-width: 991.98px) {
+
+    .stories{
+        display: block;
+    }
+    .stories div{
+        margin: 14px 0;
+    }
+    
 }
